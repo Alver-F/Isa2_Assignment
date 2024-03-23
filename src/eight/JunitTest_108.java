@@ -1,4 +1,4 @@
-package six;
+package eight;
 
 import static org.junit.Assert.*;
 
@@ -8,11 +8,11 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class JunitTest {
-	static Person obj;
+public class JunitTest_108 {
+	static Employee_108 emp;
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		obj=new Person("Alver",20);
+		emp=new Employee_108("Alver","Manager",12000);
 	}
 
 	@AfterClass
@@ -28,16 +28,9 @@ public class JunitTest {
 	}
 
 	@Test
-	public void name_test() {
-		String name=obj.name;
-		assertEquals("Alver",name);
+	public void da_test() {
+		int da=emp.calculate_da();
+		assertEquals(1200,da);
 	}
-	@Test
-	public void age_test() {
-		obj.set_age(22);
-		int age=obj.display_age();
-		assertEquals(22,age);
-	}
-
 
 }

@@ -1,8 +1,8 @@
 package seven;
 
-public class Dog {
+public class Dog_108 {
 	String name,breed;
-	Dog(String name, String breed)
+	Dog_108(String name, String breed)
 	{
 		this.name=name;
 		this.breed=breed;
@@ -28,8 +28,8 @@ public class Dog {
 
 class Dog_main {
 	public static void main(String[] args) {
-		Dog d1=new Dog("Tyson","German Shepherd");
-		Dog d2=new Dog("Pepsi","Labrador Retriever");
+		Dog_108 d1=new Dog_108("Tyson","German Shepherd");
+		Dog_108 d2=new Dog_108("Pepsi","Labrador Retriever");
 		d1.display();
 		d2.display();
 		d1.setvalues("Bingo","BullDog");

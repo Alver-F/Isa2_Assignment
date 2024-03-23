@@ -1,8 +1,8 @@
 package one;
 
-public class Add_two_numbers {
+public class Add_two_numbers_108 {
 	int num1,num2;
-	Add_two_numbers(int num1,int num2)
+	Add_two_numbers_108(int num1,int num2)
 	{
 		this.num1=num1;
 		this.num2=num2;

@@ -8,12 +8,12 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class JunitTest {
-	static Dog d1;
-	static Dog d2;
+public class JunitTest_108 {
+	static Dog_108 d1;
+	static Dog_108 d2;
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		d1=new Dog("Spike","Lab");
+		d1=new Dog_108("Spike","Lab");
 	}
 
 	@AfterClass

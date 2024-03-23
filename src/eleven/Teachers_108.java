@@ -1,8 +1,8 @@
 package eleven;
 import java.util.Scanner;
-public class Teachers{
+public class Teachers_108{
 	String type;
-	Teachers(String type)
+	Teachers_108(String type)
 	{
 		this.type=type;
 	}
@@ -12,7 +12,7 @@ public class Teachers{
 	}
 }
 
-class teacherTeaches extends Teachers{
+class teacherTeaches extends Teachers_108{
 	String name;
 	teacherTeaches(String type,String name) {
 		super(type);

@@ -1,8 +1,8 @@
 package four;
 
-public class CountDigits {
+public class CountDigits_108 {
 	int num;
-	CountDigits(int num)
+	CountDigits_108(int num)
 	{
 		this.num=num;
 	}

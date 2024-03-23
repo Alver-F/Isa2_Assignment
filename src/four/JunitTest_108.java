@@ -8,14 +8,14 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class JunitTest {
-	static CountDigits obj1;
-	static CountDigits obj2;
+public class JunitTest_108 {
+	static CountDigits_108 obj1;
+	static CountDigits_108 obj2;
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		obj1=new CountDigits(12345);
-		obj2=new CountDigits(32715216);
+		obj1=new CountDigits_108(12345);
+		obj2=new CountDigits_108(32715216);
 
 
 	}

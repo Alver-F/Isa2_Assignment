@@ -1,8 +1,8 @@
 package nine;
 
-public class Vehicle {
+public class Vehicle_108 {
 	int horsepower=80;
-	Vehicle(int horsepower)
+	Vehicle_108(int horsepower)
 	{
 		this.horsepower=horsepower;
 	}
@@ -12,7 +12,7 @@ public class Vehicle {
 	}
 }
 
-class Car extends Vehicle{
+class Car extends Vehicle_108{
 	int horsepower=50;
 	String make;
 	Car(int horsepower,String make){

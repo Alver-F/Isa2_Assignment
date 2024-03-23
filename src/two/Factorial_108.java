@@ -2,7 +2,7 @@ package two;
 
 import java.util.Scanner;
 
-public class Factorial {
+public class Factorial_108 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,10 +1,10 @@
 package three;
 import java.lang.*;
-public class Fibonacci_series {
+public class Fibonacci_series_108 {
 	
 	int num;
 	
-	Fibonacci_series(int num)
+	Fibonacci_series_108(int num)
 	{
 		this.num=num;
 	}

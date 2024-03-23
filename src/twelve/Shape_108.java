@@ -1,12 +1,12 @@
 package twelve;
 
 
-abstract class Shape{
+abstract class Shape_108{
 	public abstract void calculatePerimeter();
 	public abstract void calculateArea();
 }
 
-class Circle extends Shape{
+class Circle extends Shape_108{
 	float r;
 	double pi=3.14,area,perimeter;
 	Circle(float r)
@@ -27,7 +27,7 @@ class Circle extends Shape{
 	}
 }
 
-class Triangle extends Shape{
+class Triangle extends Shape_108{
 	int base,height,a,b,c,perimeter;
 	double area;
 	Triangle(int base,int height,int a,int b,int c)

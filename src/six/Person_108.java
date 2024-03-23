@@ -1,9 +1,9 @@
 package six;
 
-public class Person {
+public class Person_108 {
 	String name;
 	int age;
-	Person(String name,int age)
+	Person_108(String name,int age)
 	{
 		this.age=age;
 		this.name=name;
@@ -27,8 +27,8 @@ public class Person {
 }
 class person_main {
 	public static void main(String[] args) {
-		Person p1=new Person("Alver",19);
-		Person p2=new Person("Sita",15);
+		Person_108 p1=new Person_108("Alver",19);
+		Person_108 p2=new Person_108("Sita",15);
 		p1.display_values();
 		p2.display_values();
 	}

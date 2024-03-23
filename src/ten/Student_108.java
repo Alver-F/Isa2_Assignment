@@ -1,10 +1,10 @@
 package ten;
 
 
-public class Student {
+public class Student_108 {
 	String name,address;
 	int age;
-	Student(){
+	Student_108(){
 		age=0;
 		name="Unknown";
 		address="Not Available";
@@ -28,9 +28,9 @@ public class Student {
 
 class Student_Main {
 	public static void main(String[] args) {
-	Student[] arr = new Student[2];
-	arr[0]=new Student();
-	arr[1]=new Student();
+	Student_108[] arr = new Student_108[2];
+	arr[0]=new Student_108();
+	arr[1]=new Student_108();
 	arr[0].setInfo("Alver",19);
 	arr[1].setInfo("Shane", 19,"Margao");
 	arr[0].display();

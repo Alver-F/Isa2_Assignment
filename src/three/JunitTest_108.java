@@ -1,4 +1,4 @@
-package one;
+package three;
 
 import static org.junit.Assert.*;
 
@@ -8,15 +8,14 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class JunitTest {
-	
-	static Add_two_numbers obj1;
-	static Add_two_numbers obj2;
+public class JunitTest_108 {
 
+	static Fibonacci_series_108 obj1;
+	static Fibonacci_series_108 obj2;
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		obj1=new Add_two_numbers(10,2);
-		obj2=new Add_two_numbers(102,10);
+		obj1=new Fibonacci_series_108(5);
+		obj2=new Fibonacci_series_108(10);
 
 	}
 
@@ -34,14 +33,14 @@ public class JunitTest {
 
 	@Test
 	public void test1() {
-		int sum=obj1.add();
-		assertEquals(12,sum);
+		String values=obj1.print_series();
+		assertEquals("0 1 1 2 3",values);
 	}
-	
 	@Test
 	public void test2() {
-		int sum=obj2.add();
-		assertEquals(112,sum);
+		String values=obj2.print_series();
+		assertEquals("0 1 1 2 3 5 8 13 21 34",values);
+	
 	}
 
 }

@@ -1,4 +1,4 @@
-package eight;
+package one;
 
 import static org.junit.Assert.*;
 
@@ -8,11 +8,16 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class JunitTest {
-	static Employee emp;
+public class JunitTest_108 {
+	
+	static Add_two_numbers_108 obj1;
+	static Add_two_numbers_108 obj2;
+
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		emp=new Employee("Alver","Manager",12000);
+		obj1=new Add_two_numbers_108(10,2);
+		obj2=new Add_two_numbers_108(102,10);
+
 	}
 
 	@AfterClass
@@ -28,9 +33,15 @@ public class JunitTest {
 	}
 
 	@Test
-	public void da_test() {
-		int da=emp.calculate_da();
-		assertEquals(1200,da);
+	public void test1() {
+		int sum=obj1.add();
+		assertEquals(12,sum);
+	}
+	
+	@Test
+	public void test2() {
+		int sum=obj2.add();
+		assertEquals(112,sum);
 	}
 
 }

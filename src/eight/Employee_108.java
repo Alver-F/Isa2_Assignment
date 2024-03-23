@@ -1,10 +1,10 @@
 package eight;
 
-public class Employee {
+public class Employee_108 {
 	int hra,basic_salary;
 	String name,job_title;
 	double total_salary,da;
-	Employee(String name,String job_title,int basic_salary)
+	Employee_108(String name,String job_title,int basic_salary)
 	{
 		this.name=name;
 		this.job_title=job_title;
@@ -31,7 +31,7 @@ public class Employee {
 
 class employee_main {
 	public static void main(String[] args) {
-		Employee e1=new Employee("Alver","Manager",10000);
+		Employee_108 e1=new Employee_108("Alver","Manager",10000);
 		e1.calculate();
 		e1.display();
 	}
